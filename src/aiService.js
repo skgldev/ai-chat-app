@@ -2,7 +2,7 @@ import Together from 'together-ai';
 
 // Initialize the Together AI client
 const together = new Together({
-  apiKey: "API_KEY" // process.env.REACT_APP_TOGETHER_API_KEY, // Ensure this environment variable is set
+  apiKey: process.env.REACT_APP_TOGETHER_API_KEY, // Ensure this environment variable is set
 });
 
 /**
